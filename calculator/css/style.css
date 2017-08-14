@@ -1,0 +1,63 @@
+#head{
+  color:#000000; 
+  font-family: "Caflisch Script Pro, cursive";
+}
+
+#calc{
+  background-image: url("https://www.walldevil.com/wallpapers/a85/apple-background-desktop-grey-cool-windows-wallpaper-wallpapers-backgrounds-photo-computer.jpg");
+}
+
+.starter{
+		height: 100%;
+		background-color: #ffffff;
+		background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/07/3D-nature-landscape-photo-of-mountaint.jpg");
+		background-attachment: fixed,			fixed,				fixed;
+	}
+
+#footer {
+		color:rgb(0,0,0);
+		text-align: center;
+	}
+#footer .copyright {
+			font-size: 2em;
+		}
+
+#main{
+  position: relative;
+  -webkit-align-items: center
+}
+
+.well{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8), 0 6px 20px 0 rgba(0,0,0,3);
+  background-color: rgba(255,255,255,0.4);
+  
+  padding: 40px 20px;
+}
+section{
+  color: #000000;
+  font-size: 2em;
+  margin: 0 auto;
+  
+  
+}
+.got{
+  text-align: center;
+  padding: 3em 2em 3em 2em ;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,02);
+}
+
+button{
+  border-radius: 6px;
+  font-size: 15px;
+  padding: 15px 20px;
+  background-color: rgba("250,240,89,0.8");
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    background-color:#100040;
+    color: white;
+}
+#myBtn{
+  padding : 14px 120px;
+}

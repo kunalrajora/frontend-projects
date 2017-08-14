@@ -1,0 +1,279 @@
+body {
+  background: #fc8;
+  background: #000;
+  text-align: center;
+}
+.background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  min-height: 660px;
+  width: 100%;
+  z-index: 1;
+  background-color: #000;
+  background: url("http://www.wzchutian.com/wp-content/uploads/6/6-redwood-trees-redwood-trees-red-wood-table-redwood-tree-images-red-wood-stain-red-wood-stain-home-depot-red-wood-rising-redwood-restaurant-redwood-road-red-wood-ring-redwood-planks-redwoo.");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.main {
+  position: relative;
+  height: 450px;
+  width: 450px;
+  margin: 0px auto;
+  margin-top: 70px;
+  padding: 15px;
+  background: #181818;
+  background: #202020;
+  border-radius: 50%;
+  -webkit-box-shadow: 3px 3px 7px 7px rgba(0,0,0,0.7);
+  -moz-box-shadow: 3px 3px 7px 7px rgba(0,0,0,0.7);
+  box-shadow: 3px 3px 7px 7px rgba(0,0,0,0.7);
+}
+.outer-ring {
+  pointer-events: all;
+  position: absolute;
+  height: 450px;
+  width: 450px;
+  top: -15px;
+  left: 0px;
+  margin-top: 15px;
+  border: solid 15px #111;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: inset 0px 0px 45px #000;
+  -moz-box-shadow: inset 0px 0px 45px #000;
+  box-shadow: inset 0px 0px 45px #000;  
+}
+.quadrant {
+  position: absolute;
+  height: 205px;
+  width: 205px;
+  border: solid 10px #202020;
+  -webkit-box-shadow: inset 0px 0px 3px 3px #000;
+  -moz-box-shadow: inset 0px 0px 3px 3px #000;
+  box-shadow: inset 0px 0px 3px 3px #000;
+  z-index: 0;
+}
+.green {
+  top: 10px;
+  left: 10px;
+  background: #080;
+  border-radius: 250px 0px 0px 0px;
+}
+.green-lit {
+  background: #0d0;
+}
+.red {
+  top: 10px;
+  left: 245px;
+  background: #800;
+  border-radius: 0px 250px 0px 0px;
+}
+.red-lit {
+  background: #f33;
+}
+.yellow {
+  top: 245px;
+  left: 10px;
+  background: #aa0;
+  border-radius: 0px 0px 0px 250px;
+}
+.yellow-lit {
+  background: #ff5;
+}
+.blue {
+  top: 245px;
+  left: 245px;
+  background: #04f;
+  border-radius: 0px 0px 250px 0px;
+}
+.blue-lit {
+  background: #27f;
+}
+.center {
+  pointer-events: all;
+  position: relative;
+  height: 220px;
+  width: 220px;
+  margin: 0px auto;
+  margin-top: 100px;
+  background: #fff;
+  border: solid 13px #222;
+  border-radius: 50%;
+  overflow: hidden;  
+
+  background-image: -ms-linear-gradient(bottom left, #000000 0%, #FFFFFF 50%, #000000 100%);  /* IE10+ */ 
+  background-image: -moz-linear-gradient(bottom left, #000000 0%, #FFFFFF 50%, #000000 100%);  /* Mozilla Firefox */ 
+  background-image: -o-linear-gradient(bottom left, #000000 0%, #FFFFFF 50%, #000000 100%);  /* Opera */ 
+  background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #000000), color-stop(50, #FFFFFF), color-stop(100, #000000));  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-linear-gradient(bottom left, #000000 0%, #FFFFFF 50%, #000000 100%);  /* Webkit (Chrome 11+) */ 
+  background-image: linear-gradient(to top right, #000000 0%, #FFFFFF 50%, #000000 100%);  /* W3C Markup */ 
+}
+.simon-label {
+  width: 190px;
+  margin: 0px auto;
+  margin-top: 10px;
+  font-family: Teko;
+  font-size: 80px;
+  font-weight: 800;
+  color: #000;
+}
+
+.controls {
+  margin-top: -25px;
+}
+.control-row1 { 
+  overflow: hidden;
+}
+.control-row2 {
+  position: relative;
+  height: 20px;
+  width: 150px;
+  margin-left: 42px;
+  font-family: Chathura;
+  font-size: 22px;
+  line-height: 20px;
+  color: #000;
+  overflow: hidden;
+}
+.window-label {
+  float: left;
+}
+.start-label {
+  float: left;
+  margin-left: 30px;
+}
+.strict-label {
+  float: right;
+}
+.window {
+  float: left;
+  height: 35px;
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 30px;
+  text-align: center;
+  line-height: 35px;
+  font-family: Graduate;
+  font-size: 26px;
+  font-weight: 600;
+  background-color: #300;
+  border: solid 3px #333;
+  border-radius: 10px;
+}
+.window-on {
+  color: #c00;
+}
+.window-off {
+  color: #480000;
+}
+.start-button {
+  float: left;
+  margin: 12px 0px 0px 20px;
+  background-color: #c00;
+}
+.strict-button {
+  margin: 3px 0px 0px 1px;
+  background-color: #fc0;
+}
+.btn {
+  height: 20px;
+  width: 20px;
+  border: solid 4px #333;
+  border-radius: 20px;
+}
+.btn-down {
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(20,20,20,0.8);
+  -moz-box-shadow: 1px 1px 1px 1px rgba(20,20,20,0.8);
+  box-shadow: 1px 1px 1px 1px rgba(20,20,20,0.8);
+}
+.btn-up {
+  -webkit-box-shadow: 1px 3px 3px 1px rgba(20,20,20,0.8);
+  -moz-box-shadow: 1px 3px 3px 1px rgba(20,20,20,0.8);
+  box-shadow: 1px 3px 3px 1px rgba(20,20,20,0.8);
+}
+.strict-led {
+  height: 7px;
+  width: 7px;
+  margin-left: 11px;
+  border: solid 1px #333;
+  border-radius: 5px;
+}
+.strict-on {
+  background: #f11;
+}
+.strict-off {
+  background: #622;
+}
+.strict {
+  float: left;
+  height: 47px;
+  width: 35px;
+  margin: 0px 0px 0px 25px;
+  overflow: hidden;
+}
+.power {
+  float: left;
+  height: 22px;
+  width: 90px;
+  line-height: 22px;
+  margin-left: 65px;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+.power-label {
+  float: left;
+  font-family: Chathura;
+  font-size: 22px;
+  color: #000;
+}
+.power-slot {
+  float: left;
+  position: relative;
+  height: 17px;
+  width: 35px;
+  margin: 2px 7px 0px 7px;
+  background: #000;
+  border-radius: 3px;
+}
+.power-switch {
+  position: absolute;
+  top: 0px;
+  height: 13px;
+  width: 13px;
+  background: #800;
+  border: solid 1px #222;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 3px 1px #000;
+  -moz-box-shadow: 0px 2px 3px 1px #000;
+  box-shadow: 0px 2px 3px 1px #000;
+}
+.power-off {
+  left: 1px;
+}
+.power-on {
+  left: 19px;
+}
+.tagline {
+  width: 300px;
+  padding: 10px 0px 10px 0px;
+  margin: 0px auto;
+  margin-top: 40px;
+  font-family: Exo;
+  font-size: 14px;
+  color: #100;
+  background-color: rgba(255,255,255,0.20);
+  border: solid 1px #777;
+}
+.tagline a {
+  text-decoration: none;
+  color: #000;
+  text-shadow: 2px 2px 5px #000;
